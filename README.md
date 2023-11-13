@@ -1,4 +1,9 @@
+## country-info-app for Upwork contract
+
+[Upwork contract](https://www.upwork.com/jobs/~0186858e7a501b6d09)
+
 ## Steps to run `country-info-app`
+
 - run `git clone https://github.com/AndyAld/country-info-app.git`
 - run `npm install`
 - run `npm start`
@@ -9,7 +14,7 @@
     - To change your node version follow [this guide](https://github.com/nvm-sh/nvm#intro) using `nvm`.  
 2. Ensure you're on a chromium or firefox based browser.
 3. Ensure port 3000 is not in use.
-
+4. If all else fails, message me on upwork :).
 ## Available Scripts
 
 In the project directory, you can run:
