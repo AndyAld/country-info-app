@@ -1,9 +1,11 @@
-# Getting Started with Create React App
+# Before running the project,  run `npm install` in the project folder to get started.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-Before running the project,  run `npm install`.
+
 This project was built with node v20.6.1
 
 
