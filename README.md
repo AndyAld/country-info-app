@@ -1,4 +1,4 @@
-# Before running the project,  run `npm install` in the project folder to get started.
+## Before running the project,  run `npm install` in the project folder to get started.
 
 ## Getting Started with Create React App
 
