@@ -39,10 +39,9 @@ const CountryInfo: React.FC<CountryInfoProps> = ({ searchTerm }) => {
                         <CardMedia
                             component="img"
                             sx={{
-                                padding: '0 0px', // Add padding to the left and right of the image
+                                padding: '0 0px', 
                                 height: 140,
-                                // width: 'calc(height*2)', // Set a fixed height for your images
-                                objectFit: 'contain', // Add this to prevent stretching of your flags
+                                objectFit: 'contain', 
                               }}
                             image={country.flag}
                             alt={`Flag of ${country.name}`}
