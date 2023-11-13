@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Container from '@mui/material/Container';
+import CountryInfo from './components/CountryInfo/CountryInfo';
+import SearchBar from './components/SearchBar';
+import Header from './components/Header';
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(event.target.value.toLowerCase());
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Header />
+      <Container 
+        sx={{ marginY: 4, marginLeft: 0, marginRight: 'auto' }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <SearchBar onSearchChange={handleSearchChange} />
+        <CountryInfo searchTerm={searchTerm} />
+      </Container>
+    </>
   );
 }
 
