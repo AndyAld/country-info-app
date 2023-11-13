@@ -1,4 +1,9 @@
+## country-info-app for Upwork contract
+
+[Upwork contract](https://www.upwork.com/jobs/~0186858e7a501b6d09)
+
 ## Steps to run `country-info-app`
+
 - run `git clone https://github.com/AndyAld/country-info-app.git`
 - run `npm install`
 - run `npm start`
