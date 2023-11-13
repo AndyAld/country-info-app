@@ -1,10 +1,16 @@
-## Before running the project,  run `npm install` in the project folder to get started.
+## Steps to run `country-info-app`
+- run `git clone https://github.com/AndyAld/country-info-app.git`
+- run `npm install`
+- run `npm start`
 
+## Troubleshooting
+
+1. If you run into errors verify that your version of node is v20.6.1.
+    - To change your node version follow [this guide](https://github.com/nvm-sh/nvm#intro) using `nvm`.  
+2. Ensure you're on a chromium or firefox based browser.
+3. Ensure port 3000 is not in use.
 
 ## Available Scripts
-
-This project was built with node v20.6.1
-
 
 In the project directory, you can run:
 
